@@ -14,8 +14,8 @@
     <nav class="navbar">
         <div class="nav-container">
             <div class="nav-logo">
-                <i class="fas fa-graduation-cap"></i>
-                <span>IA Educativa</span>
+            <img src="imagenes/logo.png" alt="Logo" style="height: 60px;">
+                <span>IA en la educación</span>
             </div>
             <ul class="nav-menu">
                 <li class="nav-item">
@@ -74,8 +74,8 @@
             <nav class="header-nav">
                 <a href="#articles" class="nav-link active">Artículos</a>
                 <a href="#videos" class="nav-link active">Videos</a>
-                <a href="#docs" class="nav-link active">Documentación</a>
-                <a href="#books" class="nav-link active">Libros</a>
+                <a href="#docs" class="nav-link active">Descargas</a>
+             
             </nav>
         </div>
        </div>
@@ -94,38 +94,27 @@
                         [
                             'titulo' => 'Introducción a la Inteligencia Artificial',
                             'descripcion' => 'Una guía completa para principiantes sobre los conceptos fundamentales de la IA.',
-                            'autor' => 'MIT Technology Review',
-                            'fecha' => '2024-01-15',
-                            'url' => '',
-                            'nivel' => 'Principiante',
-                            'tiempo' => '15 min'
+                            'autor' => 'FundsPeople',
+                            'fecha' => '2024-04-19',
+                            'url' => 'https://fundspeople.com/es/glosario/inteligencia-artificial-guia-imprescindible-para-entender-conceptos-fundamentales/'
                         ],
                         [
                             'titulo' => 'Machine Learning: Algoritmos y Aplicaciones',
-                            'descripcion' => 'Exploración profunda de los algoritmos de ML más utilizados en la industria.',
-                            'autor' => 'Google AI Blog',
+                            'descripcion' => 'Descubre los principales beneficios del Machine Learning.',
+                            'autor' => 'iberdrola',
                             'fecha' => '2024-02-10',
-                            'url' => '',
-                            'nivel' => 'Intermedio',
+                            'url' => 'https://www.iberdrola.com/conocenos/nuestro-modelo-innovacion/machine-learning-aprendizaje-automatico',
+                            
                             'tiempo' => '25 min'
                         ],
                         [
                             'titulo' => 'Ética en Inteligencia Artificial',
                             'descripcion' => 'Consideraciones éticas y responsabilidad en el desarrollo de sistemas de IA.',
-                            'autor' => 'Stanford HAI',
-                            'fecha' => '2024-01-28',
-                            'url' => '',
-                            'nivel' => 'Avanzado',
+                            'autor' => 'Tecnologico de monterrey',
+                            'fecha' => '2024-02-12',
+                            'url' => 'https://observatorio.tec.mx/principios-eticos-de-la-educacion-con-inteligencia-artificial-ia/',
+                            
                             'tiempo' => '20 min'
-                        ],
-                        [
-                            'titulo' => 'Deep Learning para Visión Computacional',
-                            'descripcion' => 'Técnicas avanzadas de deep learning aplicadas al procesamiento de imágenes.',
-                            'autor' => 'OpenAI Research',
-                            'fecha' => '2024-02-05',
-                            'url' => '',
-                            'nivel' => 'Avanzado',
-                            'tiempo' => '30 min'
                         ]
                     ]
                 ],
@@ -136,168 +125,68 @@
                         [
                             'titulo' => 'IA Explicada en 10 Minutos',
                             'descripcion' => 'Video introductorio que explica los conceptos básicos de la IA de manera simple.',
-                            'autor' => 'Dot CSV',
-                            'fecha' => '2024-01-20',
-                            'url' => '',
-                            'nivel' => 'Principiante',
+                            'autor' => 'Doneby Laura',
+                            'fecha' => '2024-05-15',
+                            'url' => 'https://youtu.be/-idMBeCCCzs?si=1Jp4hBD-AQu68Uop',
+                            
                             'tiempo' => '10 min'
                         ],
                         [
-                            'titulo' => 'Redes Neuronales desde Cero',
+                            'titulo' => 'Redes Neuronales ',
                             'descripcion' => 'Tutorial completo sobre cómo funcionan las redes neuronales.',
                             'autor' => '3Blue1Brown',
-                            'fecha' => '2024-01-12',
-                            'url' => '',
-                            'nivel' => 'Intermedio',
+                            'fecha' => '2024-09-24',
+                            'url' => 'https://www.youtube.com/watch?v=jKCQsndqEGQ',
+                         
                             'tiempo' => '45 min'
                         ],
                         [
                             'titulo' => 'ChatGPT y Modelos de Lenguaje',
-                            'descripcion' => 'Explicación detallada de cómo funcionan los modelos de lenguaje como GPT.',
-                            'autor' => 'Andrej Karpathy',
-                            'fecha' => '2024-02-01',
-                            'url' => '',
-                            'nivel' => 'Avanzado',
+                            'descripcion' => '¿Qué es un LLM? Enormes Modelos del Lenguaje | Large Language Models.',
+                            'autor' => 'Dot CSV',
+                            'fecha' => '2022-06-05',
+                            'url' => 'https://www.youtube.com/watch?v=Sz4qacFBHLk',
+                            
                             'tiempo' => '60 min'
-                        ],
-                        [
-                            'titulo' => 'IA en la Medicina Moderna',
-                            'descripcion' => 'Aplicaciones actuales y futuras de la IA en el campo médico.',
-                            'autor' => 'TED Talks',
-                            'fecha' => '2024-01-25',
-                            'url' => '',
-                            'nivel' => 'Intermedio',
-                            'tiempo' => '18 min'
                         ]
                     ]
                 ],
                 
                 'docs' => [
-                    'titulo' => 'Documentación Técnica',
+                    'titulo' => 'Descargas',
                     'icono' => 'fas fa-file-alt',
                     'items' => [
                         [
-                            'titulo' => 'Documentación de TensorFlow',
-                            'descripcion' => 'Guías oficiales y referencias de API para TensorFlow.',
-                            'autor' => 'Google',
-                            'fecha' => '2024-02-12',
-                            'url' => '',
-                            'nivel' => 'Intermedio',
+                            'titulo' => 'Inteligencia artifical',
+                            'descripcion' => 'Métodos, Técnicas y Aplicaciones .',
+                            'autor' => 'José tómas palma',
+                            'fecha' => '2011-02-12',
+                            'url' => 'https://drive.google.com/file/d/1-05mQtbnZzKIKJ2FZQz53PoOKIC70xsS/view?usp=sharing',
+                            
                             'tiempo' => 'Referencia'
                         ],
                         [
-                            'titulo' => 'PyTorch Tutorials',
+                            'titulo' => 'Inteligencia artifical avanzada',
                             'descripcion' => 'Tutoriales oficiales y documentación completa de PyTorch.',
-                            'autor' => 'Meta AI',
-                            'fecha' => '2024-02-08',
-                            'url' => '',
-                            'nivel' => 'Intermedio',
+                            'autor' => 'Benítez',
+                            'fecha' => '2013-02-08',
+                            'url' => 'https://drive.google.com/file/d/1-56Ti3hzGjB1c3hlhbDHcAvH5bTQT9GO/view?usp=sharing',
+                            
                             'tiempo' => 'Referencia'
                         ],
                         [
-                            'titulo' => 'Scikit-learn User Guide',
-                            'descripcion' => 'Guía completa para machine learning con Python.',
-                            'autor' => 'Scikit-learn',
-                            'fecha' => '2024-01-18',
-                            'url' => '',
-                            'nivel' => 'Principiante',
-                            'tiempo' => 'Referencia'
-                        ],
-                        [
-                            'titulo' => 'OpenAI API Documentation',
-                            'descripcion' => 'Documentación oficial para integrar modelos de OpenAI.',
-                            'autor' => 'OpenAI',
-                            'fecha' => '2024-02-14',
-                            'url' => '',
-                            'nivel' => 'Intermedio',
+                            'titulo' => 'Inteligencia artificial con aplicaciones en ingenieria ',
+                            'descripcion' => 'aplicaciones de la inteligencia artificial.',
+                            'autor' => 'pedro ponce cruz',
+                            'fecha' => '2010-01-18',
+                            'url' => 'https://drive.google.com/file/d/1KmHDSsA2lyJC7bcoUtLOr4V4jq_Yf6Gu/view?usp=sharing',
+                           
                             'tiempo' => 'Referencia'
                         ]
                     ]
                 ],
-                'books' => [
-                    'titulo' => 'Libros y eBooks',
-                    'icono' => 'fas fa-book',
-                    'items' => [
-                        [
-                            'titulo' => 'Hands-On Machine Learning',
-                            'descripcion' => 'Guía práctica para machine learning con Scikit-Learn y TensorFlow.',
-                            'autor' => 'Aurélien Géron',
-                            'fecha' => '2023-12-01',
-                            'url' => '',
-                            'nivel' => 'Intermedio',
-                            'tiempo' => '600 páginas'
-                        ],
-                        [
-                            'titulo' => 'Pattern Recognition and Machine Learning',
-                            'descripcion' => 'Texto fundamental sobre reconocimiento de patrones y ML.',
-                            'autor' => 'Christopher Bishop',
-                            'fecha' => '2023-11-15',
-                            'url' => '',
-                            'nivel' => 'Avanzado',
-                            'tiempo' => '738 páginas'
-                        ],
-                        [
-                            'titulo' => 'Deep Learning',
-                            'descripcion' => 'El libro definitivo sobre deep learning por los pioneros del campo.',
-                            'autor' => 'Ian Goodfellow, Yoshua Bengio, Aaron Courville',
-                            'fecha' => '2023-10-20',
-                            'url' => '',
-                            'nivel' => 'Avanzado',
-                            'tiempo' => '800 páginas'
-                        ],
-                        [
-                            'titulo' => 'AI for Everyone',
-                            'descripcion' => 'Introducción accesible a la IA para no técnicos.',
-                            'autor' => 'Andrew Ng',
-                            'fecha' => '2024-01-05',
-                            'url' => '',
-                            'nivel' => 'Principiante',
-                            'tiempo' => '200 páginas'
-                        ]
-                    ]
-                ],
-                'datasets' => [
-                    'titulo' => 'Datasets y Bases de Datos',
-                    'icono' => 'fas fa-database',
-                    'items' => [
-                        [
-                            'titulo' => 'ImageNet',
-                            'descripcion' => 'Base de datos masiva de imágenes para entrenamiento de modelos de visión.',
-                            'autor' => 'Stanford Vision Lab',
-                            'fecha' => '2024-01-01',
-                            'url' => '',
-                            'nivel' => 'Intermedio',
-                            'tiempo' => '14M imágenes'
-                        ],
-                        [
-                            'titulo' => 'Common Crawl',
-                            'descripcion' => 'Archivo abierto de la web para entrenamiento de modelos de lenguaje.',
-                            'autor' => 'Common Crawl Foundation',
-                            'fecha' => '2024-02-01',
-                            'url' => '',
-                            'nivel' => 'Avanzado',
-                            'tiempo' => 'Petabytes'
-                        ],
-                        [
-                            'titulo' => 'Kaggle Datasets',
-                            'descripcion' => 'Colección de datasets para competencias y práctica de ML.',
-                            'autor' => 'Kaggle Community',
-                            'fecha' => '2024-02-10',
-                            'url' => '',
-                            'nivel' => 'Principiante',
-                            'tiempo' => '50K+ datasets'
-                        ],
-                        [
-                            'titulo' => 'UCI ML Repository',
-                            'descripcion' => 'Repositorio clásico de datasets para machine learning.',
-                            'autor' => 'UC Irvine',
-                            'fecha' => '2024-01-15',
-                            'url' => '',
-                            'nivel' => 'Principiante',
-                            'tiempo' => '500+ datasets'
-                        ]
-                    ]
-                ]
+                
+                
             ];
             ?>
 
@@ -327,18 +216,10 @@
                     </div>
                     <div class="stat-info">
                         <h3><?php echo count($recursos['docs']['items']); ?></h3>
-                        <p>Documentacion</p>
+                        <p>Descargas</p>
                     </div>
                 </div>
-                <div class="stat-card">
-                    <div class="stat-icon">
-                        <i class="fas fa-book"></i>
-                    </div>
-                    <div class="stat-info">
-                        <h3><?php echo count($recursos['books']['items']); ?></h3>
-                        <p>Libros</p>
-                    </div>
-                </div>
+                
             </div>
 
             <?php foreach ($recursos as $categoriaId => $categoria): ?>
@@ -365,19 +246,14 @@
                             <p><?= $recurso['descripcion'] ?></p>
                             <div class="resource-meta">
                                 <div class="meta-item"><i class="fas fa-calendar-alt"></i> <span><?= $recurso['fecha'] ?></span></div>
-                                <div class="meta-item"><i class="fas fa-clock"></i> <span><?= $recurso['tiempo'] ?></span></div>
+                                
                             </div>
                         </div>
                         <div class="resource-actions">
                             <a href="<?= $recurso['url'] ?: '#' ?>" class="btn-primary" target="_blank">
                                 <i class="fas fa-external-link-alt"></i> Ver recurso
                             </a>
-                            <button class="btn-secondary favorite-btn" data-title="<?= $recurso['titulo'] ?>">
-                                <i class="far fa-heart"></i>
-                            </button>
-                            <button class="btn-secondary share-btn" data-title="<?= $recurso['titulo'] ?>" data-url="<?= $recurso['url'] ?>">
-                                <i class="fas fa-share-alt"></i>
-                            </button>
+                
                         </div>
                     </div>
                 <?php endforeach; ?>
@@ -408,8 +284,8 @@
             <div class="footer-content">
                 <div class="footer-section">
                     <div class="footer-logo">
-                        <i class="fas fa-graduation-cap"></i>
-                        <span>IA Educativa</span>
+                    <img src="imagenes/logo.png" alt="Logo" style="height: 60px;">
+                <span>IA en la educación</span>
                     </div>
                     <p>Promoviendo la Inteligencia Artificial en la educación para un futuro más inteligente y accesible.</p>
                 </div>

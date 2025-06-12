@@ -14,8 +14,8 @@
     <nav class="navbar">
         <div class="nav-container">
              <div class="nav-logo">
-            <img src="logo.png" alt="Logo" style="height: 60px;">
-                <span>IA Web Facil</span>
+             <img src="imagenes/logo.png" alt="Logo" style="height: 60px;">
+                <span>IA en la educación</span>
             </div>
             <ul class="nav-menu">
                 <li class="nav-item">
@@ -100,24 +100,27 @@
                                 <?php
                                 $team = [
                                     [
-                                        'nombre' => 'DR LAURA BEATRIZ VIDAL TURRUBIATES',
-                                        'cargo' => 'Directora ',
-                                        'correo' => 'laura.vidal@ujat.mx',
-                                        'imagen' => ''
+                                        'nombre' => 'DRA Laura Beatriz Vidal Turrubiates',
+                                        'correo' => 'Scrum master',
+                                        'cargo' => 'Directora Asesora ',
+                                        
+                                        'imagen' => 'scrum.png'
                                        
                                     ],
                                     [
                                         'nombre' => 'José Antonio Cuevas Hernández ',
+                                        'correo' => 'Product Owner',
                                         'cargo' => 'Desarrollador',
-                                        'correo' =>'cuevas130702@gmail.com',
+                                        
                                         'imagen' => 'cara-jose.png',
                                         
                                     ],
                                     [
-                                        'nombre' => 'jordi gael vasconcelos rueda',
+                                        'nombre' => 'Jordin Gael Vasconcelos Rueda',
+                                         'correo' => 'Develoment',
                                         'cargo' => 'Desarrollador',
-                                        'correo' => 'jordinvr@gmail.com',
-                                        'imagen' => ''
+                                       
+                                        'imagen' => 'jordi.png'
 
                                     ]
                                 ];
@@ -125,11 +128,17 @@
                                 foreach($team as $miembro):
                                 ?>
                                 <div class="team-card">
-                                    <div class="team-image">
-                                        <div class="placeholder-image">
-                                            <i class="fas fa-user"></i>
-                                        </div>
-                                    </div>
+                                <div class="team-image">
+    <?php if (!empty($miembro['imagen'])): ?>
+        <img src="imagenes/<?php echo $miembro['imagen']; ?>" alt="<?php echo $miembro['nombre']; ?>">
+    <?php else: ?>
+        <div class="placeholder-image">
+            <i class="fas fa-user"></i>
+        </div>
+    <?php endif; ?>
+</div>
+
+
                                     <div class="team-info">
                                         <h3><?php echo $miembro['nombre']; ?></h3>
                                         <span class="team-role"><?php echo $miembro['cargo']; ?></span>
@@ -208,7 +217,7 @@
                                         </div>
                                         <div class="info-content">
                                             <h3>Ubicación</h3>
-                                            <p>Ciudad de México, México</p>
+                                            <p>tabasco cunduacan, México</p>
                                         </div>
                                     </div>
                                     
@@ -267,8 +276,8 @@
             <div class="footer-content">
                 <div class="footer-section">
                     <div class="footer-logo">
-                        <i class="fas fa-graduation-cap"></i>
-                        <span>IA en la Educación</span>
+                    <img src="imagenes/logo.png" alt="Logo" style="height: 60px;">
+                <span>IA en la educación</span>
                     </div>
                     <p>Promoviendo la Inteligencia Artificial en la educación para un futuro más inteligente y accesible.</p>
                 </div>
