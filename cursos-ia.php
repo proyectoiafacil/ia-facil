@@ -14,8 +14,8 @@
     <nav class="navbar">
         <div class="nav-container">
             <div class="nav-logo">
-                <i class="fas fa-graduation-cap"></i>
-                <span>IA Educativa</span>
+            <img src="imagenes/logo.png" alt="Logo" style="height: 60px;">
+                <span>IA en la educación</span>
             </div>
             <ul class="nav-menu">
                 <li class="nav-item">
@@ -71,9 +71,9 @@
             <div class="header-content">
                 <nav class="header-nav">
                     <a href="#free" class="nav-link active">Gratuitos</a>
-                    <a href="#platform" class="nav-link active">Plataformas</a>
+                   
                  <a href="#conference" class="nav-link active">Conferencias</a>
-                 <a href="#certificate" class="nav-link active">Certificados</a>
+               
                 </nav>
         </div>
         
@@ -92,130 +92,45 @@
                     'icono' => 'fas fa-gift',
                     'items' => [
                         [
-                            'titulo' => 'Introducción a la Inteligencia Artificial',
-                            'descripcion' => 'Curso introductorio que cubre los conceptos básicos de la IA, machine learning y deep learning.',
-                            'instructor' => 'Andrew Ng',
-                            'plataforma' => 'Coursera',
-                            'fecha' => '2024-01-15',
-                            'url' => '',
-                            'nivel' => 'Principiante',
-                            'duracion' => '4 semanas',
-                            'idioma' => 'Inglés',
-                            'subtitulos' => 'Español, Inglés',
-                            'imagen' => 'curso-intro-ia.jpg',
-                            'gratis' => true,
-                            'certificado' => false
-                        ],
-                        [
-                            'titulo' => 'Fundamentos de Machine Learning',
-                            'descripcion' => 'Aprende los algoritmos fundamentales de machine learning y cómo implementarlos con Python.',
-                            'instructor' => 'José Portilla',
+                            'titulo' => 'inteligencia artificial con python',
+                            'descripcion' => 'Curso de Inteligencia Artificial con Python .',
+                            'instructor' => 'Javier Finance',
                             'plataforma' => 'Udemy',
-                            'fecha' => '2024-02-10',
-                            'url' => '',
-                            'nivel' => 'Principiante',
-                            'duracion' => '10 horas',
+                            'fecha' => '2024-01-15',
+                            'url' => 'https://www.udemy.com/course/inteligencia-artificial-gratis-python/',
+                            'duracion' => '1 h 44 min ',
                             'idioma' => 'Español',
                             'subtitulos' => 'Español, Inglés',
-                            'imagen' => 'curso-ml-fundamentos.jpg',
-                            'gratis' => true,
-                            'certificado' => false
+                            'imagen' => 'udemy.png',
+                            'gratis' => true
                         ],
                         [
-                            'titulo' => 'Deep Learning con TensorFlow',
-                            'descripcion' => 'Curso práctico sobre redes neuronales y deep learning utilizando TensorFlow y Keras.',
-                            'instructor' => 'Google AI',
-                            'plataforma' => 'Google Developers',
-                            'fecha' => '2024-01-28',
-                            'url' => '',
-                            'nivel' => 'Intermedio',
-                            'duracion' => '15 horas',
-                            'idioma' => 'Inglés',
-                            'subtitulos' => 'Español, Inglés, Francés',
-                            'imagen' => 'curso-tensorflow.jpg',
-                            'gratis' => true,
-                            'certificado' => false
+                            'titulo' => 'Introducción a la IA generativa. ',
+                            'descripcion' => 'los tipos de modelos de IA generativa y las aplicaciones de IA generativa..',
+                            'instructor' => 'google',
+                            'plataforma' => 'cloudskillsboost',
+                            'fecha' => '2025-10-25',
+                            'url' => 'https://cloud.google.com/learn/training/machinelearning-ai',
+                            'duracion' => ' 45 minutos',
+                            'idioma' => 'Ingles',
+                            'subtitulos' => 'Español, Inglés',
+                            'imagen' => 'cursos.png',
+                            'gratis' => true
                         ],
                         [
-                            'titulo' => 'Procesamiento de Lenguaje Natural',
-                            'descripcion' => 'Introducción al NLP con aplicaciones prácticas en análisis de texto y sentiment analysis.',
-                            'instructor' => 'Stanford Online',
-                            'plataforma' => 'YouTube',
-                            'fecha' => '2024-02-05',
-                            'url' => '',
-                            'nivel' => 'Intermedio',
-                            'duracion' => '20 horas',
-                            'idioma' => 'Inglés',
-                            'subtitulos' => 'Inglés, Español',
-                            'imagen' => 'curso-nlp.jpg',
-                            'gratis' => true,
-                            'certificado' => false
-                        ]
-                    ]
-                ],
-                'platform' => [
-                    'titulo' => 'Cursos en Plataformas',
-                    'icono' => 'fas fa-university',
-                    'items' => [
-                        [
-                            'titulo' => 'Especialización en Machine Learning',
-                            'descripcion' => 'Serie de cursos que cubren todos los aspectos del machine learning, desde los fundamentos hasta técnicas avanzadas.',
-                            'instructor' => 'Andrew Ng',
-                            'plataforma' => 'Coursera',
-                            'fecha' => '2024-01-20',
-                            'url' => '',
-                            'nivel' => 'Intermedio',
-                            'duracion' => '3 meses',
-                            'idioma' => 'Inglés',
-                            'subtitulos' => 'Español, Inglés, Portugués',
-                            'imagen' => 'curso-ml-especialization.jpg',
-                            'gratis' => false,
-                            'certificado' => true
-                        ],
-                        [
-                            'titulo' => 'Deep Learning Specialization',
-                            'descripcion' => 'Domina las técnicas de deep learning y construye tu carrera en IA con esta especialización completa.',
-                            'instructor' => 'Andrew Ng',
-                            'plataforma' => 'Coursera',
-                            'fecha' => '2024-01-12',
-                            'url' => '',
-                            'nivel' => 'Intermedio',
-                            'duracion' => '3 meses',
-                            'idioma' => 'Inglés',
-                            'subtitulos' => 'Español, Inglés, Chino',
-                            'imagen' => 'curso-dl-especialization.jpg',
-                            'gratis' => false,
-                            'certificado' => true
-                        ],
-                        [
-                            'titulo' => 'Inteligencia Artificial: Refuerzo y Aprendizaje',
-                            'descripcion' => 'Curso avanzado sobre aprendizaje por refuerzo y sus aplicaciones en robótica e IA.',
-                            'instructor' => 'David Silver',
-                            'plataforma' => 'edX',
-                            'fecha' => '2024-02-01',
-                            'url' => '',
-                            'nivel' => 'Avanzado',
-                            'duracion' => '8 semanas',
-                            'idioma' => 'Inglés',
-                            'subtitulos' => 'Inglés, Español',
-                            'imagen' => 'curso-reinforcement.jpg',
-                            'gratis' => false,
-                            'certificado' => true
-                        ],
-                        [
-                            'titulo' => 'Inteligencia Artificial para Todos',
-                            'descripcion' => 'Curso diseñado para no técnicos que quieren entender la IA y su impacto en los negocios.',
-                            'instructor' => 'Andrew Ng',
-                            'plataforma' => 'Coursera',
-                            'fecha' => '2024-01-25',
-                            'url' => '',
-                            'nivel' => 'Principiante',
+                            'titulo' => ' teoría y práctica para aprender los fundamentos de la IA ',
+                            'descripcion' => '¿Cómo deberíamos definir la IA?',
+                            'instructor' => 'Elements of AI',
+                            'plataforma' => 'Elements of AI',
+                            'fecha' => '2025-01-28',
+                            'url' => 'https://course.elementsofai.com/es/',
+                           
                             'duracion' => '4 semanas',
-                            'idioma' => 'Inglés',
-                            'subtitulos' => 'Español, Inglés, Árabe',
-                            'imagen' => 'curso-ai-for-everyone.jpg',
-                            'gratis' => false,
-                            'certificado' => true
+                            'idioma' => 'Español',
+                            'subtitulos' => 'Español, Inglés, Francés',
+                            'imagen' => 'helsinki.png',
+                            'gratis' => true,
+                            'certificado' => false
                         ]
                     ]
                 ],
@@ -224,130 +139,46 @@
                     'icono' => 'fas fa-microphone-alt',
                     'items' => [
                         [
-                            'titulo' => 'El Futuro de la IA',
-                            'descripcion' => 'Conferencia sobre las tendencias futuras en IA y su impacto en la sociedad.',
-                            'instructor' => 'Sam Altman',
-                            'plataforma' => 'TED Talks',
-                            'fecha' => '2024-02-12',
-                            'url' => '',
-                            'nivel' => 'Todos',
-                            'duracion' => '18 minutos',
+                            'titulo' => 'La industria de inteligencia artificial de América del Norte',
+                            'descripcion' => 'explorar avances en IA generativa, infraestructura, políticas y aplicaciones en diversos sectores.',
+                            'instructor' => '  ejecutivos',
+                        
+                            'fecha' => '2025-08-13',
+                            'url' => ' https://ai4.io/vegas/',
+                        
+                            'duracion' => '3 días',
                             'idioma' => 'Inglés',
                             'subtitulos' => 'Español, Inglés, Francés, Alemán',
-                            'imagen' => 'conferencia-futuro-ia.jpg',
-                            'gratis' => true,
-                            'certificado' => false
+                            'imagen' => 'conferencia1.png'
+                         
                         ],
                         [
-                            'titulo' => 'Ética en la Inteligencia Artificial',
-                            'descripcion' => 'Charla sobre los dilemas éticos y responsabilidades en el desarrollo de sistemas de IA.',
-                            'instructor' => 'Kate Crawford',
-                            'plataforma' => 'TED Talks',
-                            'fecha' => '2024-02-08',
-                            'url' => '',
-                            'nivel' => 'Todos',
-                            'duracion' => '15 minutos',
-                            'idioma' => 'Inglés',
+                            'titulo' => 'Congreso Mexicano de Inteligencia Artificial ',
+                            'descripcion' => 'Congreso nacional que incluye conferencias magistrales  de trabajos de investigación en IA..',
+                            'instructor' => 'Universidad Panamericana',
+                           
+                            'fecha' => '2025-05-12',
+                            'url' => 'http://smia.mx/comia/2025/',
+                         
+                            'duracion' => '4 dias',
+                            'idioma' => 'Español',
                             'subtitulos' => 'Español, Inglés, Portugués',
-                            'imagen' => 'conferencia-etica-ia.jpg',
-                            'gratis' => true,
-                            'certificado' => false
+                            'imagen' => 'conferencia2.png'
+                          
                         ],
                         [
-                            'titulo' => 'Cómo la IA Está Cambiando la Medicina',
-                            'descripcion' => 'Conferencia sobre las aplicaciones revolucionarias de la IA en el campo médico.',
-                            'instructor' => 'Eric Topol',
-                            'plataforma' => 'TEDMED',
-                            'fecha' => '2024-01-18',
-                            'url' => '',
-                            'nivel' => 'Intermedio',
-                            'duracion' => '20 minutos',
-                            'idioma' => 'Inglés',
+                            'titulo' => 'Congreso America Digital México ',
+                            'descripcion' => 'discutir tendencias tecnológicas, incluyendo IA aplicada a negocios y digitalización.',
+                            'instructor' => 'Ejecutivos y expertos tecnológicos',
+                          
+                            'fecha' => '2025-01-18',
+                            'url' => 'https://mx.america-digital.com',
+                          
+                            'duracion' => '2 días',
+                            'idioma' => 'Español',
                             'subtitulos' => 'Español, Inglés',
-                            'imagen' => 'conferencia-ia-medicina.jpg',
-                            'gratis' => true,
-                            'certificado' => false
-                        ],
-                        [
-                            'titulo' => 'El Impacto de la IA en el Futuro del Trabajo',
-                            'descripcion' => 'Análisis sobre cómo la IA transformará el mercado laboral y las habilidades necesarias para el futuro.',
-                            'instructor' => 'Kai-Fu Lee',
-                            'plataforma' => 'TED Talks',
-                            'fecha' => '2024-02-14',
-                            'url' => '',
-                            'nivel' => 'Todos',
-                            'duracion' => '14 minutos',
-                            'idioma' => 'Inglés',
-                            'subtitulos' => 'Español, Inglés, Chino',
-                            'imagen' => 'conferencia-ia-trabajo.jpg',
-                            'gratis' => true,
-                            'certificado' => false
-                        ]
-                    ]
-                ],
-                'certificate' => [
-                    'titulo' => 'Programas con Certificación',
-                    'icono' => 'fas fa-certificate',
-                    'items' => [
-                        [
-                            'titulo' => 'Certificación Profesional en Data Science',
-                            'descripcion' => 'Programa completo que cubre estadísticas, machine learning y visualización de datos.',
-                            'instructor' => 'IBM',
-                            'plataforma' => 'Coursera',
-                            'fecha' => '2024-01-01',
-                            'url' => '',
-                            'nivel' => 'Intermedio',
-                            'duracion' => '6 meses',
-                            'idioma' => 'Inglés',
-                            'subtitulos' => 'Español, Inglés',
-                            'imagen' => 'certificacion-data-science.jpg',
-                            'gratis' => false,
-                            'certificado' => true
-                        ],
-                        [
-                            'titulo' => 'TensorFlow Developer Certificate',
-                            'descripcion' => 'Preparación para la certificación oficial de desarrollador de TensorFlow de Google.',
-                            'instructor' => 'Google',
-                            'plataforma' => 'Coursera',
-                            'fecha' => '2024-02-10',
-                            'url' => '',
-                            'nivel' => 'Avanzado',
-                            'duracion' => '3 meses',
-                            'idioma' => 'Inglés',
-                            'subtitulos' => 'Inglés',
-                            'imagen' => 'certificacion-tensorflow.jpg',
-                            'gratis' => false,
-                            'certificado' => true
-                        ],
-                        [
-                            'titulo' => 'Especialista en IA y Machine Learning',
-                            'descripcion' => 'Programa de certificación profesional que cubre todos los aspectos de la IA moderna.',
-                            'instructor' => 'Microsoft',
-                            'plataforma' => 'edX',
-                            'fecha' => '2024-01-30',
-                            'url' => '',
-                            'nivel' => 'Intermedio',
-                            'duracion' => '6 meses',
-                            'idioma' => 'Inglés',
-                            'subtitulos' => 'Español, Inglés',
-                            'imagen' => 'certificacion-microsoft-ai.jpg',
-                            'gratis' => false,
-                            'certificado' => true
-                        ],
-                        [
-                            'titulo' => 'Certificación en Deep Learning',
-                            'descripcion' => 'Programa intensivo que cubre redes neuronales, CNN, RNN y transformers.',
-                            'instructor' => 'DeepLearning.AI',
-                            'plataforma' => 'Coursera',
-                            'fecha' => '2024-02-15',
-                            'url' => '',
-                            'nivel' => 'Avanzado',
-                            'duracion' => '4 meses',
-                            'idioma' => 'Inglés',
-                            'subtitulos' => 'Español, Inglés, Chino',
-                            'imagen' => 'certificacion-deep-learning.jpg',
-                            'gratis' => false,
-                            'certificado' => true
+                            'imagen' => 'conferencia3.png'
+                         
                         ]
                     ]
                 ]
@@ -367,29 +198,11 @@
                 </div>
                 <div class="stat-card">
                     <div class="stat-icon">
-                        <i class="fas fa-university"></i>
-                    </div>
-                    <div class="stat-info">
-                        <h3><?php echo count($cursos['platform']['items']); ?></h3>
-                        <p>Cursos en Plataformas</p>
-                    </div>
-                </div>
-                <div class="stat-card">
-                    <div class="stat-icon">
                         <i class="fas fa-microphone-alt"></i>
                     </div>
                     <div class="stat-info">
                         <h3><?php echo count($cursos['conference']['items']); ?></h3>
                         <p>Conferencias</p>
-                    </div>
-                </div>
-                <div class="stat-card">
-                    <div class="stat-icon">
-                        <i class="fas fa-certificate"></i>
-                    </div>
-                    <div class="stat-info">
-                        <h3><?php echo count($cursos['certificate']['items']); ?></h3>
-                        <p>Certificaciones</p>
                     </div>
                 </div>
             </div>
@@ -407,7 +220,7 @@
         <?php foreach ($categoria['items'] as $curso): ?>
           <div class="course-card" data-nivel="<?= strtolower($curso['nivel']) ?>">
             <div class="course-image">
-              <img src="assets/img/<?= $curso['imagen'] ?>" alt="<?= $curso['titulo'] ?>">
+              <img src="imagenes/<?= $curso['imagen'] ?>" alt="<?= $curso['titulo'] ?>">
               <div class="course-badges">
                 <?php if ($curso['gratis']): ?>
                   <span class="badge badge-free">Gratis</span>
@@ -425,19 +238,13 @@
                 <div class="meta-item"><i class="fas fa-chalkboard-teacher"></i> <?= $curso['instructor'] ?></div>
                 <div class="meta-item"><i class="fas fa-globe"></i> <?= $curso['idioma'] ?></div>
                 <div class="meta-item"><i class="fas fa-clock"></i> <?= $curso['duracion'] ?></div>
-                <div class="meta-item"><i class="fas fa-play-circle"></i> <?= $curso['plataforma'] ?></div>
+               
               </div>
             </div>
             <div class="course-actions">
               <a href="<?= $curso['url'] ?: '#' ?>" class="btn-primary" target="_blank">
                 <i class="fas fa-external-link-alt"></i> Ver Curso
               </a>
-              <button class="btn-secondary favorite-btn" data-title="<?= $curso['titulo'] ?>">
-                <i class="far fa-heart"></i>
-              </button>
-              <button class="btn-secondary share-btn" data-title="<?= $curso['titulo'] ?>" data-url="<?= $curso['url'] ?>">
-                <i class="fas fa-share-alt"></i>
-              </button>
             </div>
           </div>
         <?php endforeach; ?>
@@ -471,7 +278,7 @@
             <div class="platforms-grid">
                 <div class="platform-card">
                     <div class="platform-logo">
-                        <img src="/placeholder.svg?height=80&width=200" alt="Coursera">
+                        <img src="imagenes/coursera.png" alt="Coursera">
                     </div>
                     <h3>Coursera</h3>
                     <p>Cursos y especializaciones de las mejores universidades y empresas del mundo.</p>
@@ -483,7 +290,7 @@
                 
                 <div class="platform-card">
                     <div class="platform-logo">
-                        <img src="/placeholder.svg?height=80&width=200" alt="Udemy">
+                        <img src="imagenes/udemy1.png" alt="Udemy">
                     </div>
                     <h3>Udemy</h3>
                     <p>Cursos prácticos creados por expertos en la industria de la IA.</p>
@@ -491,29 +298,9 @@
                         Ver cursos <i class="fas fa-arrow-right"></i>
                     </a>
                 </div>
+
                 
-                <div class="platform-card">
-                    <div class="platform-logo">
-                        <img src="/placeholder.svg?height=80&width=200" alt="YouTube">
-                    </div>
-                    <h3>YouTube</h3>
-                    <p>Tutoriales gratuitos y conferencias completas sobre IA y machine learning.</p>
-                    <a href="https://www.youtube.com/results?search_query=artificial+intelligence+course" target="_blank" class="platform-link">
-                        Ver videos <i class="fas fa-arrow-right"></i>
-                    </a>
-                </div>
-                
-                <div class="platform-card">
-                    <div class="platform-logo">
-                        <img src="/placeholder.svg?height=80&width=200" alt="TED">
-                    </div>
-                    <h3>TED Talks</h3>
-                    <p>Conferencias inspiradoras sobre el futuro de la IA y su impacto en la sociedad.</p>
-                    <a href="https://www.ted.com/topics/artificial+intelligence" target="_blank" class="platform-link">
-                        Ver charlas <i class="fas fa-arrow-right"></i>
-                    </a>
-                </div>
-                
+            
                 
     </section>
 
@@ -528,15 +315,15 @@
             <div class="footer-content">
                 <div class="footer-section">
                     <div class="footer-logo">
-                        <i class="fas fa-graduation-cap"></i>
-                        <span>IA Educativa</span>
+                    <img src="imagenes/logo.png" alt="Logo" style="height: 60px;">
+                <span>IA en la educación</span>
                     </div>
                     <p>Promoviendo la Inteligencia Artificial en la educación para un futuro más inteligente y accesible.</p>
                 </div>
                 <div class="footer-section">
                     <h3>Enlaces Rápidos</h3>
                     <ul>
-                        <li><a href="index.php">Inicio</a></li>
+                        <li><a href="inicio.php">Inicio</a></li>
                         <li><a href="tipos-ia.php">Tipos de IA</a></li>
                         <li><a href="recursos-ia.php">Recursos</a></li>
                         <li><a href="cursos-ia.php">Cursos</a></li>

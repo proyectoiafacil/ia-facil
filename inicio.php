@@ -14,8 +14,8 @@
     <nav class="navbar">
         <div class="nav-container">
             <div class="nav-logo">
-            <img src="logo.png" alt="Logo" style="height: 60px;">
-                <span>IA Web Facil</span>
+            <img src="imagenes/logo.png" alt="Logo" style="height: 60px;">
+                <span>IA en la educación</span>
             </div>
             <ul class="nav-menu">
                 <li class="nav-item">
@@ -172,8 +172,8 @@
             <div class="footer-content">
                 <div class="footer-section">
                     <div class="footer-logo">
-                    <img src="logo.png" alt="Logo" style="height: 60px;">
-                        <span>IA Web Facil</span>
+                    <img src="imagenes/logo.png" alt="Logo" style="height: 60px;">
+                <span>IA en la educación</span>
                     </div>
                     <p>Promoviendo la Inteligencia Artificial en la educación para un futuro más inteligente y accesible.</p>
                 </div>
@@ -230,13 +230,6 @@
                 </div>
                 <div class="message-content">
                     <p>¡Hola! 👋 Soy tu asistente de navegación.</p>
-                    <p>¿A dónde quieres ir? Puedes decirme:</p>
-                    <div class="quick-options">
-                        <button class="quick-btn" data-destination="tipos">Tipos de IA</button>
-                        <button class="quick-btn" data-destination="recursos">Recursos</button>
-                        <button class="quick-btn" data-destination="cursos">Cursos</button>
-                        <button class="quick-btn" data-destination="creditos">Créditos</button>
-                    </div>
                 </div>
             </div>
         </div>

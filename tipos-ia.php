@@ -15,8 +15,8 @@
     <nav class="navbar">
         <div class="nav-container">
             <div class="nav-logo">
-            <img src="logo.png" alt="Logo" style="height: 60px;">
-                <span>IA Web Facil</span>
+            <img src="imagenes/logo.png" alt="Logo" style="height: 60px;">
+                <span>IA en la educación</span>
             </div>
             <ul class="nav-menu">
                 <li class="nav-item">
@@ -92,9 +92,7 @@
                     'Programación' => 'Generación automática de código y asistencia en desarrollo',
                     'Marketing' => 'Creación de campañas publicitarias y contenido promocional',
                     'Educación' => 'Generación de material educativo personalizado',
-                    'Entretenimiento' => 'Creación de música, videos y contenido multimedia',
-                    'Medicina' => 'Generación de moléculas y compuestos farmacéuticos',
-                    'Arquitectura' => 'Diseño automático de planos y estructuras'
+                    'Entretenimiento' => 'Creación de música, videos y contenido multimedia'
                 ],
                 'ejemplos_herramientas' => [
                     'ChatGPT' => 'Generación de texto conversacional',
@@ -132,9 +130,7 @@
                     'Salud' => 'Diagnóstico temprano, predicción de epidemias y medicina personalizada',
                     'Marketing' => 'Segmentación de clientes, predicción de churn y optimización de campañas',
                     'Manufactura' => 'Mantenimiento predictivo, control de calidad y optimización de procesos',
-                    'Transporte' => 'Optimización de rutas, predicción de tráfico y mantenimiento de flotas',
-                    'Recursos Humanos' => 'Predicción de rotación de empleados y selección de talento',
-                    'Energía' => 'Predicción de consumo energético y optimización de redes eléctricas'
+                    'Transporte' => 'Optimización de rutas, predicción de tráfico y mantenimiento de flotas'
                 ],
                 'ejemplos_herramientas' => [
                     'IBM Watson' => 'Plataforma de IA predictiva empresarial',
@@ -172,9 +168,7 @@
                     'Educación' => 'Tutores virtuales y sistemas de aprendizaje adaptativo',
                     'Legal' => 'Análisis de documentos legales y asistencia jurídica',
                     'Investigación' => 'Análisis de literatura científica y descubrimiento de conocimiento',
-                    'Recursos Humanos' => 'Evaluación de candidatos y análisis de desempeño',
-                    'Seguridad' => 'Análisis de amenazas y detección de anomalías',
-                    'Consultoría' => 'Análisis de datos complejos y recomendaciones estratégicas'
+                    'Recursos Humanos' => 'Evaluación de candidatos y análisis de desempeño'
                 ],
                 'ejemplos_herramientas' => [
                     'IBM Watson' => 'Plataforma de IA cognitiva líder',
@@ -204,8 +198,9 @@
             <div class="container">
                 <div class="section-header">
                     <h2><i class="fas fa-magic"></i> <?php echo $tipos_ia['generativa']['titulo']; ?></h2>
+                    <img src="imagenes/ia_generativa.jpg" alt="IA Generativa" class="main-image" style="width: 200px; height: auto;">
                     <div class="section-image">
-                        <img src="images/ia-generativa.png" alt="IA Generativa" class="main-image">
+                       
                     </div>
                 </div>
 
@@ -249,25 +244,6 @@
                             <?php endforeach; ?>
                         </div>
                     </div>
-
-                    <div class="resources-panel">
-                        <div class="articles-section">
-                            <h3><i class="fas fa-newspaper"></i> Artículos Recomendados</h3>
-                            <ul class="resources-list">
-                                <?php foreach($tipos_ia['generativa']['articulos'] as $titulo => $url): ?>
-                                    <li><a href="<?php echo $url; ?>" target="_blank"><?php echo $titulo; ?></a></li>
-                                <?php endforeach; ?>
-                            </ul>
-                        </div>
-
-                        <div class="videos-section">
-                            <h3><i class="fas fa-video"></i> Videos Educativos</h3>
-                            <ul class="resources-list">
-                                <?php foreach($tipos_ia['generativa']['videos'] as $titulo => $url): ?>
-                                    <li><a href="<?php echo $url; ?>" target="_blank"><?php echo $titulo; ?></a></li>
-                                <?php endforeach; ?>
-                            </ul>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -278,8 +254,9 @@
             <div class="container">
                 <div class="section-header">
                     <h2><i class="fas fa-chart-line"></i> <?php echo $tipos_ia['predictiva']['titulo']; ?></h2>
+                    <img src="imagenes/ia predictiva.jpg" alt="IA Predictiva" class="main-image" style="width: 220px; height: auto;">
                     <div class="section-image">
-                        <img src="images/ia-predictiva.png" alt="IA Predictiva" class="main-image">
+                       
                     </div>
                 </div>
 
@@ -324,24 +301,7 @@
                         </div>
                     </div>
 
-                    <div class="resources-panel">
-                        <div class="articles-section">
-                            <h3><i class="fas fa-newspaper"></i> Artículos Recomendados</h3>
-                            <ul class="resources-list">
-                                <?php foreach($tipos_ia['predictiva']['articulos'] as $titulo => $url): ?>
-                                    <li><a href="<?php echo $url; ?>" target="_blank"><?php echo $titulo; ?></a></li>
-                                <?php endforeach; ?>
-                            </ul>
-                        </div>
-
-                        <div class="videos-section">
-                            <h3><i class="fas fa-video"></i> Videos Educativos</h3>
-                            <ul class="resources-list">
-                                <?php foreach($tipos_ia['predictiva']['videos'] as $titulo => $url): ?>
-                                    <li><a href="<?php echo $url; ?>" target="_blank"><?php echo $titulo; ?></a></li>
-                                <?php endforeach; ?>
-                            </ul>
-                        </div>
+                    
                     </div>
                 </div>
             </div>
@@ -352,8 +312,8 @@
             <div class="container">
                 <div class="section-header">
                     <h2><i class="fas fa-brain"></i> <?php echo $tipos_ia['cognitiva']['titulo']; ?></h2>
-                    <div class="section-image">
-                        <img src="images/ia-cognitiva.png" alt="IA Cognitiva" class="main-image">
+                    <img src="imagenes/ia cognitiva.jpeg" alt="IA Cognitiva" class="main-image"  style="width: 200px; height: auto;">
+                    <div class="section-image">  
                     </div>
                 </div>
 
@@ -398,24 +358,7 @@
                         </div>
                     </div>
 
-                    <div class="resources-panel">
-                        <div class="articles-section">
-                            <h3><i class="fas fa-newspaper"></i> Artículos Recomendados</h3>
-                            <ul class="resources-list">
-                                <?php foreach($tipos_ia['cognitiva']['articulos'] as $titulo => $url): ?>
-                                    <li><a href="<?php echo $url; ?>" target="_blank"><?php echo $titulo; ?></a></li>
-                                <?php endforeach; ?>
-                            </ul>
-                        </div>
-
-                        <div class="videos-section">
-                            <h3><i class="fas fa-video"></i> Videos Educativos</h3>
-                            <ul class="resources-list">
-                                <?php foreach($tipos_ia['cognitiva']['videos'] as $titulo => $url): ?>
-                                    <li><a href="<?php echo $url; ?>" target="_blank"><?php echo $titulo; ?></a></li>
-                                <?php endforeach; ?>
-                            </ul>
-                        </div>
+                   
                     </div>
                 </div>
             </div>
@@ -427,8 +370,8 @@
             <div class="footer-content">
                 <div class="footer-section">
                     <div class="footer-logo">
-                        <i class="fas fa-graduation-cap"></i>
-                        <span>IA Educativa</span>
+                    <img src="imagenes/logo.png" alt="Logo" style="height: 60px;">
+                <span>IA en la educación</span>
                     </div>
                     <p>Promoviendo la Inteligencia Artificial en la educación para un futuro más inteligente y accesible.</p>
                 </div>
